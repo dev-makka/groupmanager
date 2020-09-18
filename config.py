@@ -18,8 +18,7 @@ class Config(object):
     SUPPORT_CHAT = "No Support Chat exists" # Your telegram support chat username, must have the "@" Example: @MyBotSupportGroupChat
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = '
-postgres://nqqfekpm:hWeZKOzPpHvSazr5u0eIpV6DjiNPzdIL@lallah.db.elephantsql.com:5432/nqqfekpm'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://nqqfekpm:hWeZKOzPpHvSazr5u0eIpV6DjiNPzdIL@lallah.db.elephantsql.com:5432/nqqfekpm'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = None #Channel ID here with the hyphen like -123456789
     LOAD = []
