@@ -12,13 +12,14 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR BOT TOKEN HERE"
-    OWNER_ID = "YOUR OWN ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
+    API_KEY = ""a3df45b8d3b710a5b15b485381f1adc8
+    OWNER_ID = "943978681"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "YOUR USERNAME HERE"  #Just write it without the @ ex "Sawada"
     SUPPORT_CHAT = "No Support Chat exists" # Your telegram support chat username, must have the "@" Example: @MyBotSupportGroupChat
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = '
+postgres://nqqfekpm:hWeZKOzPpHvSazr5u0eIpV6DjiNPzdIL@lallah.db.elephantsql.com:5432/nqqfekpm'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = None #Channel ID here with the hyphen like -123456789
     LOAD = []
